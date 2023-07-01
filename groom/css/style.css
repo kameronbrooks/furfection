@@ -1,0 +1,155 @@
+/*
+Author: Kameron Brooks
+Date: 06/30/2023
+File Name: style.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #f0ece9;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rules for header area */
+header {
+    background-color: #2a1f14;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+header h1, header h3 {
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+}
+
+/* Style rules for mobile viewport */
+
+/* Style rules to show mobile class and hide tab-desk class */
+
+.mobile {
+    display: block;
+}
+
+.tab-desk {
+    display: none;
+}
+
+.mobile h1 {
+    padding: 2%;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+
+}
+.mobile h3 {
+    padding: 2%;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color: #2a1f14;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    border-top: 0.5px solid #f6eee4;
+    font-size: 1.5em;
+    padding: 0.5em;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+}
+
+nav li a {
+    color: #f6eee4;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+main h3 {
+    padding-top: 2%;
+}
+
+main ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+
+.link {
+    color: #4d3319;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.round {
+    border-radius: 12px;
+}
+
+.img-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#info ul {
+    margin-left: 10%;
+}
+
+#contact {
+    text-align: center;
+}
+
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #2a1f14;
+    color: #f6eee4;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+footer a {
+    color: #f3e6d8;
+}
+
